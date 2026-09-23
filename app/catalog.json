@@ -1,0 +1,337 @@
+{
+  "offer": {
+    "label": "Offer letter",
+    "clauses": {
+      "ip_assignment": {
+        "title": "IP assignment",
+        "criteria": {
+          "what": "Gives the company ownership of inventions, code, or other work",
+          "not_for": "A confidentiality promise that does not transfer ownership",
+          "examples": ["I hereby assign all inventions", "work made for hire"]
+        },
+        "body": "Plainly, this sentence makes the company the owner of work, not just a promise to keep it quiet. Read whether it covers only work done for the job, or also work on your own time, before the job, or after you leave. In California, Labor Code 2870 makes an assignment unenforceable for an invention the employee developed entirely on their own time without the employer's equipment, supplies, facilities, or trade-secret information, unless it relates to the employer's business or came out of work for the employer. Other states differ, and some only require notice of a statutory limit. A clause that keeps assigning ideas conceived after you leave can be treated as a backdoor noncompete. This is background, not a legal opinion."
+      },
+      "clawback": {
+        "title": "Clawback or stay-or-pay",
+        "criteria": {
+          "what": "Lets the company take back pay, a bonus, equity, or training costs if you leave or miss a condition",
+          "not_for": "Ordinary tax withholding or a bonus that is simply not guaranteed",
+          "examples": ["repay the signing bonus if you leave within 12 months", "training repayment"]
+        },
+        "body": "Plainly, money or equity already promised can be pulled back, or leaving can create a debt. The trigger is the part to read: quitting, a missed target, or an allegation. A signing bonus that must be repaid if you leave inside a year is this clause. So is a training-repayment or stay-or-pay term. Some states restrict those debts, especially when the training was for the employer's benefit. There is no single national rule. Ask what event actually creates the repayment, and whether the amount falls over time. This is background, not a legal opinion."
+      },
+      "at_will": {
+        "title": "At-will",
+        "criteria": {
+          "what": "Says either side may end the job without a fixed term",
+          "not_for": "A promise of employment for a stated period",
+          "examples": ["employment is at will", "either party may terminate at any time"]
+        },
+        "body": "Plainly, at-will means the company can end the job without owing you a term, and you can leave without owing them a term. In most of the United States that is the default unless a contract says otherwise. The sentence often sits next to restrictions that still bind you after you leave, so at-will is not the same thing as a clean exit. It also usually preserves exceptions the law already imposes, such as discrimination and retaliation rules, even when the letter does not list them. A fixed term or a for-cause promise is a different sentence. This is background, not a legal opinion."
+      },
+      "equity": {
+        "title": "Equity",
+        "criteria": {
+          "what": "Describes stock, options, a vest schedule, or a cliff",
+          "not_for": "Cash salary or a discretionary cash bonus",
+          "examples": ["options vest over four years", "one-year cliff"]
+        },
+        "body": "Plainly, this is ownership or a right to buy ownership, not salary. A grant that is unvested is usually lost if you leave before the date in the sentence. A cliff means nothing vests until that first date. The offer letter often points at a separate stock plan that can change the terms, so the number of shares in the letter may not be the whole deal. Acceleration on a sale, and what happens to vested shares if you leave, are separate questions. Tax treatment is not in the letter unless the sentence states it. This is background, not a legal opinion."
+      },
+      "non_compete": {
+        "title": "Non-compete",
+        "criteria": {
+          "what": "Limits the employer, industry, or place where you can work after you leave",
+          "not_for": "A ban only on soliciting their customers or employees",
+          "examples": ["will not work for a competitor for 12 months", "within 50 miles"]
+        },
+        "body": "Plainly, this limits the next job: a competitor, a field, a city, or a stretch of time. There is no nationwide ban in force. A 2024 FTC rule that would have barred most worker noncompetes was set aside in Ryan LLC v. FTC, and in September 2025 the FTC dropped its appeals and later removed the rule. The FTC still brings some case-by-case cases. State law is what decides a given letter. California generally voids employee noncompetes. Other states enforce a narrow one and refuse a broad one. Read the duration, the geography, and the kind of work. This is background, not a legal opinion."
+      },
+      "non_solicit": {
+        "title": "Non-solicit",
+        "criteria": {
+          "what": "Bars recruiting their employees or calling on their customers after you leave",
+          "not_for": "A ban on working in the industry at all",
+          "examples": ["will not solicit customers", "will not hire employees for 12 months"]
+        },
+        "body": "Plainly, this does not say you cannot take a job. It says you cannot pull their people or their customers for a period. Courts in many states treat that as narrower than a noncompete, and some still enforce it where a noncompete would fail. The width is who counts as a customer: everyone the company has, or only people you actually worked with. A ban on hiring, not just soliciting, is stricter. This is background, not a legal opinion."
+      },
+      "comp_change": {
+        "title": "Pay or role can change",
+        "criteria": {
+          "what": "Lets the company change pay, title, location, or duties",
+          "not_for": "A stated salary with no right to change it",
+          "examples": ["compensation may be adjusted", "duties may change"]
+        },
+        "body": "Plainly, a number next to this sentence is not locked. The company is reserving the right to change pay, title, or duties. At-will employment often includes that power even when the letter also prints a starting salary. A cut that is really a way to force you out can still raise legal issues, but the sentence itself is the reservation. Ask which parts are fixed for a period and which can move. This is background, not a legal opinion."
+      },
+      "discretionary_bonus": {
+        "title": "Discretionary bonus",
+        "criteria": {
+          "what": "Says a bonus, commission, or target is not owed",
+          "not_for": "A bonus the company must pay if a written target is met",
+          "examples": ["bonus is discretionary", "target is not a guarantee"]
+        },
+        "body": "Plainly, a target is not a promise when the sentence says the company decides whether to pay it. People read the dollar figure and miss the word discretionary. A commission plan that pays a stated percent of collected revenue is different from a bonus the company may withhold. If the letter says the plan can be changed or that you must be employed on the pay date, the figure is conditional. This is background, not a legal opinion."
+      },
+      "offer_expiry": {
+        "title": "Offer deadline",
+        "criteria": {
+          "what": "Says the offer ends on a date or if it is not signed in time",
+          "not_for": "A start date that does not kill the offer",
+          "examples": ["this offer expires on Friday", "sign within five business days"]
+        },
+        "body": "Plainly, the offer dies if you do not accept by the time written here. A start date is when the job would begin. An expiry is when the promise of the job disappears. Those are different sentences. Exploding deadlines are common and are not, by themselves, illegal. The date in the sentence is the one to copy, not a date you infer. This is background, not a legal opinion."
+      },
+      "contingency": {
+        "title": "The offer depends on something",
+        "criteria": {
+          "what": "Makes the job depend on a background check, references, documents, or work eligibility",
+          "not_for": "An at-will statement with no extra condition",
+          "examples": ["contingent on a background check", "proof of eligibility to work"]
+        },
+        "body": "Plainly, signing does not mean the job is final if this sentence is here. A background check, a drug test, reference checks, or proof you may work in the country can still stop it. What they may look at, and what they must tell you, depends on federal and state screening rules. Read what happens if the check fails, and whether the offer can be pulled after you have resigned the old job. This is background, not a legal opinion."
+      },
+      "arbitration": {
+        "title": "Arbitration",
+        "criteria": {
+          "what": "Sends an employment dispute to a private arbitrator instead of court",
+          "not_for": "A venue clause that still uses a court",
+          "examples": ["binding arbitration", "waive a jury"]
+        },
+        "body": "Plainly, a fight about the job goes to a private process instead of a judge or a jury. These clauses are widely used and are often enforced if you actually agreed. A class or collective waiver next to it means a claim is brought alone. Some claims, depending on the state and the wording, can still go to an agency. Read who picks the arbitrator and who pays. This is background, not a legal opinion."
+      }
+    }
+  },
+  "nda": {
+    "label": "NDA",
+    "clauses": {
+      "duration": {
+        "title": "How long secrecy lasts",
+        "criteria": {
+          "what": "States how long the confidentiality duty lasts, including a perpetual duty",
+          "not_for": "The length of the project or the meeting itself",
+          "examples": ["for three years", "obligations survive in perpetuity"]
+        },
+        "body": "Plainly, this is the clock on silence, not the clock on the relationship. A two-year deal can still carry a five-year or perpetual secrecy duty. Trade secrets are often kept secret for as long as they stay secret, while ordinary business information gets a fixed term. Perpetual coverage of everything you were told is broad. There is no universal legal maximum. Read the number, or the words that say it never ends. This is background, not a legal opinion."
+      },
+      "residuals": {
+        "title": "Residuals",
+        "criteria": {
+          "what": "Lets the other side use what its people remember without notes",
+          "not_for": "A normal non-use promise with no memory exception",
+          "examples": ["unaided memory", "residuals may be used for any purpose"]
+        },
+        "body": "Plainly, a residuals clause lets the receiving side use information stuck in someone's unaided memory, often for any purpose, without a fee. Lawyers flag it because a broad version can swallow the rest of the NDA. The safer shape, if it must exist, limits memory to what was not deliberately memorized, excludes patents and copyrights, and does not allow disclosure to outsiders. If you are the one sharing, this is the sentence to question. This is background, not a legal opinion."
+      },
+      "disclosure": {
+        "title": "Who may be told",
+        "criteria": {
+          "what": "Names who may receive the information, or forbids telling anyone else",
+          "not_for": "The definition of what counts as confidential",
+          "examples": ["disclose only to employees with a need to know", "advisors bound by a similar duty"]
+        },
+        "body": "Plainly, this is the list of people you may tell. Need-to-know employees and professional advisors are the usual list. A list that omits lawyers, accountants, or existing employees means you cannot tell them unless the sentence allows it. The receiver is often still responsible for those people's leaks. A court, a regulator, or a subpoena is a separate exception and is not the same as permission to talk. This is background, not a legal opinion."
+      },
+      "non_solicit": {
+        "title": "Non-solicit inside the NDA",
+        "criteria": {
+          "what": "Restricts hiring, soliciting, or doing business with the other side's people or customers",
+          "not_for": "A pure promise not to share information",
+          "examples": ["will not solicit employees", "will not divert customers"]
+        },
+        "body": "Plainly, this is a business restriction hiding in a secrecy agreement. An NDA can be only about secrets. A non-solicit says you will not hire their people or chase their customers for a period. That can matter more than the secrecy term, and it is negotiated separately. Read who is covered and for how long. This is background, not a legal opinion."
+      },
+      "work_product": {
+        "title": "Ideas become theirs",
+        "criteria": {
+          "what": "Assigns feedback, ideas, or work shared under the NDA to the other side",
+          "not_for": "A residuals clause about memory, with no assignment",
+          "examples": ["feedback shall be owned by the company", "hereby assigns all suggestions"]
+        },
+        "body": "Plainly, suggestions you thought you were only discussing can become their property. A secrecy promise does not do that. An assignment does. Residuals are the opposite direction: they let the receiver use memory. This sentence lets them own what you said. It should not be read as a patent license unless it actually grants one. This is background, not a legal opinion."
+      },
+      "exclusions": {
+        "title": "What is not confidential",
+        "criteria": {
+          "what": "Lists information that is not covered, such as public, already known, independent, or legally compelled information",
+          "not_for": "The general definition of confidential information with no carve-out",
+          "examples": ["publicly available", "independently developed", "required by law"]
+        },
+        "body": "Plainly, these are the holes in the definition, and a normal NDA has them. Information that is public, that you already had, that you developed alone, that you received from someone else free to share it, or that a law or court order forces you to disclose, is the standard set. Missing carve-outs make the duty wider than the conversation. A compelled disclosure usually still requires notice when the law allows it. This is background, not a legal opinion."
+      },
+      "return_or_destroy": {
+        "title": "Give it back or delete it",
+        "criteria": {
+          "what": "Requires return or destruction of the information when asked or when talks end",
+          "not_for": "A secrecy term that says nothing about copies",
+          "examples": ["return or destroy all copies", "certify destruction"]
+        },
+        "body": "Plainly, when the talks end or they ask, you give the materials back or delete them, often including notes. Copies on backups and email are the practical fight. A right to keep one copy for legal compliance is common and is narrower than a right to keep using the information. This duty is separate from how long you must stay quiet about what you remember. This is background, not a legal opinion."
+      },
+      "one_way": {
+        "title": "Only one side owes secrecy",
+        "criteria": {
+          "what": "Says only one party must protect information, or that both must",
+          "not_for": "A duration or a residuals clause",
+          "examples": ["recipient shall not disclose", "mutual obligations", "one-way"]
+        },
+        "body": "Plainly, a one-way NDA protects only the side that is sharing. A mutual NDA makes the same promise run both ways. If you will also show something of yours, a one-way form leaves it uncovered. The label at the top is not enough. The duty sentence is what decides it. This is background, not a legal opinion."
+      }
+    }
+  },
+  "lease": {
+    "label": "Lease",
+    "clauses": {
+      "auto_renew": {
+        "title": "Auto-renew",
+        "criteria": {
+          "what": "Continues the lease unless someone gives notice",
+          "not_for": "A fixed end date with no renewal",
+          "examples": ["automatically renews", "month to month unless notice"]
+        },
+        "body": "Plainly, the tenancy continues past the end unless notice is given in time. The notice period and who must send it are the words that matter. Some states make a long automatic renewal unenforceable unless the landlord reminds the tenant ahead of the deadline. Others enforce the clause as written. A renewal for one more month is different from a renewal for another full year. This is background, not a legal opinion."
+      },
+      "break_fee": {
+        "title": "Fee to leave early",
+        "criteria": {
+          "what": "Charges money or rent for ending the lease before the term",
+          "not_for": "Ordinary monthly rent during the term",
+          "examples": ["two months' rent as a break fee", "responsible for rent through the end"]
+        },
+        "body": "Plainly, leaving early has a price: a stated fee, the rest of the rent, or both. In many states a landlord who re-rents must credit that rent against what you owe, but the lease may still demand a fee on top. A duty to pay the entire remaining term with no credit is the harsh version. Some leases allow an early end for military orders or for victims of violence, which is a different sentence. This is background, not a legal opinion."
+      },
+      "sublet": {
+        "title": "Sublet, guests, or assignment",
+        "criteria": {
+          "what": "Forbids or conditions sharing, subletting, or transferring the lease",
+          "not_for": "A guest policy with no limit on transferring the lease",
+          "examples": ["no subletting without consent", "assignment is prohibited"]
+        },
+        "body": "Plainly, you may not hand the place to someone else, or even share it, unless the sentence allows it. Consent that may be withheld for any reason is stricter than consent that cannot be unreasonably withheld. A ban on assignment means you cannot transfer the lease when you leave. Local law sometimes limits how a landlord uses that veto. Read whether a roommate or a short guest is covered. This is background, not a legal opinion."
+      },
+      "repairs": {
+        "title": "Who repairs",
+        "criteria": {
+          "what": "Puts repair, maintenance, or habitability work on one side",
+          "not_for": "A security-deposit deduction with no repair duty",
+          "examples": ["tenant shall maintain", "landlord shall keep in habitable condition"]
+        },
+        "body": "Plainly, this decides who calls the plumber and who pays. Many states still require the landlord to keep a home livable even if the lease tries to shift that. Ordinary upkeep and damage you cause are often yours. A sentence that makes you repair structural items or keep the place up to code is the one to question. The deposit clause is how they collect for damage later. It is not this sentence. This is background, not a legal opinion."
+      },
+      "deposit": {
+        "title": "Deposit",
+        "criteria": {
+          "what": "Describes a deposit, what may be deducted, or when it comes back",
+          "not_for": "Monthly rent or a nonrefundable fee that is labeled as rent",
+          "examples": ["security deposit", "deduct for damage beyond ordinary wear"]
+        },
+        "body": "Plainly, this money is held against unpaid rent or damage, and it is not the last month's rent unless the sentence says so. The usual legal line is damage beyond ordinary wear, not every scuff. States differ on the maximum deposit, whether interest is owed, and how many days the landlord has to return it or send an itemized list. A nonrefundable move-in fee is not a deposit. If the sentence lets them keep the deposit for ordinary wear, that is the part to question. This is background, not a legal opinion."
+      },
+      "rent_change": {
+        "title": "Rent can change",
+        "criteria": {
+          "what": "Allows the rent to rise during the term or at renewal",
+          "not_for": "A fixed rent for a fixed term with no increase",
+          "examples": ["rent may increase on 30 days' notice", "adjusted annually"]
+        },
+        "body": "Plainly, the rent number is not fixed for as long as you might think. A fixed-term lease usually holds the rent until the end, and an increase belongs to a renewal. A month-to-month tenancy can often be raised with notice. Some cities cap the increase. A sentence that lets them raise rent in the middle of a fixed term is the unusual one. Read the notice period and the cap, if any. This is background, not a legal opinion."
+      },
+      "landlord_entry": {
+        "title": "When they can enter",
+        "criteria": {
+          "what": "Says when the landlord may enter the home",
+          "not_for": "A repair duty that does not mention entry",
+          "examples": ["enter with 24 hours' notice", "enter at any time"]
+        },
+        "body": "Plainly, this is permission to come into the home. Emergency entry is widely allowed. Entry to inspect or show the place usually needs notice, and many states set a minimum, often about a day, and a reasonable hour. A sentence that allows entry at any time, or with no notice, for any reason, is the one to question. Consent in the lease does not always beat a local notice rule. This is background, not a legal opinion."
+      },
+      "holdover": {
+        "title": "Staying after the end",
+        "criteria": {
+          "what": "Sets the consequence of staying past the end of the lease",
+          "not_for": "An early-termination fee for leaving before the end",
+          "examples": ["holdover rent at 150 percent", "becomes month to month"]
+        },
+        "body": "Plainly, if you stay after the last day, the lease names the price. Sometimes it becomes month to month at the same rent. Sometimes the rent jumps, or the landlord can start an eviction without a long notice. A higher holdover rent is a penalty for staying, not a renewal you chose. Local law may limit how large that jump can be. This is background, not a legal opinion."
+      },
+      "notice_to_end": {
+        "title": "Notice to end",
+        "criteria": {
+          "what": "Says how much notice ends the tenancy or stops a renewal",
+          "not_for": "A fee for leaving with no notice period",
+          "examples": ["30 days' written notice", "60 days before the end date"]
+        },
+        "body": "Plainly, this is the deadline to say you are leaving, or for them to say you must. For a month-to-month tenancy, many states use about one rental period. A fixed-term lease may need notice even though it has an end date, or it rolls forward. Notice that is one day late often fails and buys another period. Read who must write it and how it must be sent. This is background, not a legal opinion."
+      }
+    }
+  },
+  "checkout": {
+    "label": "Checkout terms",
+    "clauses": {
+      "auto_renew": {
+        "title": "Keeps charging",
+        "criteria": {
+          "what": "Continues the charge after a trial or a period unless the user cancels",
+          "not_for": "A one-time purchase with no later charge",
+          "examples": ["automatically renews", "converts to a paid subscription"]
+        },
+        "body": "Plainly, the charge continues until you cancel. That is a negative option. A federal click-to-cancel rule was set aside, and in March 2026 the FTC opened a new rulemaking rather than enforcing that old rule. About 30 states have their own auto-renewal laws, which often require a clear disclosure and a cancel path that is not harder than signing up. The sentence still controls what you are agreeing to today. Read when the first paid charge hits and what canceling actually stops. This is background, not a legal opinion."
+      },
+      "arbitration": {
+        "title": "Arbitration",
+        "criteria": {
+          "what": "Requires a private arbitrator instead of a court for a dispute about the service",
+          "not_for": "A class waiver that does not mention arbitration",
+          "examples": ["binding individual arbitration", "AAA rules"]
+        },
+        "body": "Plainly, a dispute with the company goes to a private arbitrator, not a court. Consumer contracts use this constantly, and US courts often enforce it when the person had a real chance to say no, sometimes by an opt-out window. The clause should be read with any class waiver beside it. Who pays the fees and which arbitration service is named are the practical parts. Some terms allow small-claims court as a narrow exception. This is background, not a legal opinion."
+      },
+      "class_waiver": {
+        "title": "Class waiver",
+        "criteria": {
+          "what": "Bars a class action or a group claim",
+          "not_for": "An arbitration clause with no limit on group claims",
+          "examples": ["waive any class action", "only on an individual basis"]
+        },
+        "body": "Plainly, you agree to sue or arbitrate alone, not as part of a group. Courts have enforced these waivers inside arbitration agreements for years. The effect is that a small overcharge is hard to bring as a case. The waiver does not, by itself, say the company did nothing wrong. It changes the shape of the claim. This is background, not a legal opinion."
+      },
+      "cancellation": {
+        "title": "How to cancel",
+        "criteria": {
+          "what": "Describes the steps or deadline to cancel or get a refund",
+          "not_for": "The sentence that says the plan renews, with no cancel steps",
+          "examples": ["cancel in account settings", "no refund after 14 days"]
+        },
+        "body": "Plainly, this is the path and the deadline, not the fact of renewal. A refund that exists only if you cancel before a date is easy to miss. State auto-renewal laws often care whether canceling is as easy as signing up. A requirement to call, mail, or give 30 days' notice is stricter than a button in the account. Read whether canceling stops the next charge or only stops renewal after the term you already paid. This is background, not a legal opinion."
+      },
+      "content_license": {
+        "title": "License to your content",
+        "criteria": {
+          "what": "Gives the company a license to use, copy, or display what the user uploads or writes",
+          "not_for": "A privacy sentence that only says they collect account data",
+          "examples": ["you grant a worldwide license", "perpetual right to use your content"]
+        },
+        "body": "Plainly, photos, text, or files you put in the product can be used by the company under the license in this sentence. A license only to host and display the content so the service runs is ordinary. A perpetual, irrevocable, sublicensable license to use it for any purpose, including after you delete the account, is wide. The license is not the same as them owning the copyright, unless the sentence also assigns ownership. This is background, not a legal opinion."
+      },
+      "price_change": {
+        "title": "Price can change",
+        "criteria": {
+          "what": "Lets the company change the price of a renewal or a subscription",
+          "not_for": "A stated one-time price with no later change",
+          "examples": ["fees may change", "we will notify you before the new price"]
+        },
+        "body": "Plainly, the price you see today may not be the price on the next renewal. Many state auto-renewal laws expect notice before a material price increase, and a chance to cancel before it hits. The terms may still say continued use is acceptance of the new price. Read how much notice they give and whether silence counts as a yes. This is background, not a legal opinion."
+      },
+      "liability_limit": {
+        "title": "Cap on what they owe",
+        "criteria": {
+          "what": "Caps the company's damages or disclaims warranties",
+          "not_for": "An arbitration clause that does not limit the amount",
+          "examples": ["liability shall not exceed fees paid", "as is", "no consequential damages"]
+        },
+        "body": "Plainly, if the service fails, the most they owe may be what you paid, or nothing. As-is language disclaims warranties. Caps and consequential-damage waivers are routine in consumer terms and are often enforced, with exceptions some states keep for injury or for conduct the law will not let a company waive. The cap amount is the figure to read. This is background, not a legal opinion."
+      }
+    }
+  }
+}
