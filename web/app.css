@@ -1,0 +1,321 @@
+:root {
+  --bg: #10161c;
+  --panel: #172229;
+  --ink: #e8eef2;
+  --muted: #c5d2de;
+  --line: #2c3e4c;
+  --done: #7dcec4;
+  --run: #f0c14a;
+  --bad: #ff7a7a;
+  --lit: #f0c14a;
+  color: var(--ink);
+  background:
+    radial-gradient(900px 420px at 10% -10%, #1c3140 0%, transparent 60%),
+    var(--bg);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 28px 20px 72px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  max-width: 16ch;
+}
+
+.mark, .host, .tape, button, label, textarea, aside, .status {
+  font-family: "Cascadia Mono", "Cascadia Code", Consolas, monospace;
+}
+
+.mark {
+  margin: 0 0 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--done);
+}
+
+.host {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+form, .tape, article, aside {
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+
+form {
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.doors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.doors label, .drop {
+  position: relative;
+  border: 1px solid var(--line);
+  padding: 8px 12px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.doors label:has(input:checked) {
+  color: var(--bg);
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.doors input, .drop input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.drop {
+  display: grid;
+  place-items: center;
+  min-height: 88px;
+  border-style: dashed;
+  text-align: center;
+}
+
+.drop.over {
+  border-color: var(--run);
+  color: var(--run);
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--line);
+  background: #10181e;
+  color: var(--ink);
+  padding: 10px;
+  font: 15px/1.45 "Cascadia Mono", Consolas, monospace;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+button {
+  background: var(--ink);
+  color: var(--bg);
+  border: 0;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+button:focus-visible, label:focus-within, textarea:focus-visible {
+  outline: 2px solid var(--run);
+  outline-offset: 2px;
+}
+
+.status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.status.error {
+  color: var(--bad);
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.tape {
+  list-style: none;
+  margin: 0;
+  padding: 16px 14px;
+  position: sticky;
+  top: 16px;
+  align-self: start;
+}
+
+.tape li {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 10px;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.tape li:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 16px;
+  bottom: 0;
+  width: 2px;
+  background: var(--line);
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--bg);
+  box-sizing: border-box;
+}
+
+.tape .run .dot {
+  border-color: var(--run);
+  background: var(--run);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+.tape .done .dot {
+  border-color: var(--done);
+  background: var(--done);
+}
+
+.tape .fail .dot {
+  border-color: var(--bad);
+  background: var(--bad);
+}
+
+.step-name {
+  display: block;
+  font-size: 0.82rem;
+}
+
+.step-detail {
+  display: block;
+  color: var(--muted);
+  font-size: 0.72rem;
+  margin-top: 3px;
+}
+
+#result {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(240px, 0.8fr);
+  gap: 16px;
+}
+
+#result[hidden] {
+  display: none;
+}
+
+article, aside {
+  padding: 16px 18px;
+}
+
+p.para {
+  margin: 0 0 14px;
+  line-height: 1.5;
+  font-size: 1.02rem;
+}
+
+p.dim {
+  color: #6e8294;
+}
+
+p.lit {
+  border-left: 3px solid var(--lit);
+  padding-left: 10px;
+}
+
+aside h2 {
+  margin: 16px 0 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--done);
+}
+
+aside h2:first-child {
+  margin-top: 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  font: 13px/1.45 "Cascadia Mono", Consolas, monospace;
+  background: #10181e;
+  padding: 10px;
+}
+
+ol#rail {
+  padding-left: 18px;
+}
+
+li + li {
+  margin-top: 12px;
+}
+
+.score {
+  color: var(--run);
+  font-size: 0.8rem;
+}
+
+@keyframes pulse {
+  50% { box-shadow: 0 0 0 6px rgba(240, 193, 74, 0.28); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tape .run .dot {
+    animation: none;
+  }
+}
+
+@media (max-width: 860px) {
+  header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .work, #result {
+    grid-template-columns: 1fr;
+  }
+
+  .tape {
+    position: static;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+  }
+
+  .tape li {
+    min-width: 140px;
+    padding-bottom: 0;
+  }
+
+  .tape li:not(:last-child)::before {
+    display: none;
+  }
+}

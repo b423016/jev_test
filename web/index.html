@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Before you sign</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="mark">Before you sign</p>
+      <h1>Lit sentences are the ones that change the deal.</h1>
+    </div>
+    <p class="host" id="host"></p>
+  </header>
+
+  <form id="scan">
+    <div class="doors" role="radiogroup" aria-label="Document type">
+      <label><input type="radio" name="door" value="offer" checked> Offer</label>
+      <label><input type="radio" name="door" value="nda"> NDA</label>
+      <label><input type="radio" name="door" value="lease"> Lease</label>
+      <label><input type="radio" name="door" value="checkout"> Checkout</label>
+    </div>
+    <label class="drop" id="drop">
+      <input id="file" type="file" accept=".pdf,.txt,.md,application/pdf,text/plain">
+      <span id="file-label">Drop a PDF or text file, or choose one</span>
+    </label>
+    <textarea id="text" rows="6" placeholder="Or paste the document"></textarea>
+    <div class="row">
+      <button type="submit" id="go">Read it</button>
+      <p id="status" class="status" role="status"></p>
+    </div>
+  </form>
+
+  <div class="work">
+    <ol class="tape" id="tape" aria-label="Agent flow"></ol>
+    <div id="result" hidden>
+      <article id="doc"></article>
+      <aside>
+        <h2>Read these first</h2>
+        <ol id="rail"></ol>
+        <h2>Questions to send</h2>
+        <pre id="draft"></pre>
+        <button type="button" id="copy-draft">Copy questions</button>
+        <div id="reminder" hidden>
+          <h2>Date in a lit sentence</h2>
+          <pre id="reminder-body"></pre>
+          <button type="button" id="copy-reminder">Copy reminder</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
